@@ -23,7 +23,7 @@ total_value = 0
 
 for v,w in lst:
     if W==0:  #checking if the limit has reached
-        #print(total_value)
+        print(total_value)
         quit()
     amt = min(w,W)               #taking the minimum of W, i.e Total weight and w,which represent weight of object
     total_value+=amt*v/w         # adding the value to the list///
